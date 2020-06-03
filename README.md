@@ -25,4 +25,3 @@ show.html page load a component show-blogs, show-blog component is responsible f
   4. deleteBlog: It takes the id of existing blog as request data(body) and delete the particular blog instance.
   
   
-* names of some components, elements, apis or pages may be changed to increase readibility.  
