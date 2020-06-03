@@ -1,0 +1,20 @@
+<style>
+	#blogList{
+		display: inline;
+	}
+	.wraper{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+ 	width: 20%;
+ 	border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+</style>
+<!-- This element will call the getBlogs function and the js logic will 
+	render the blogs dynamically -->
+<script type="text/javascript">
+    	monkshu_env.components["show-blogs"].getBlogs();
+</script>
+<button onclick="monkshu_env.components['show-blogs'].addBlog()">Add New Blog</button>
+<div id="blogList"></div>

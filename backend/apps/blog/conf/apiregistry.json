@@ -1,0 +1,6 @@
+{
+    "/apis/read-blogs" : "/apis/readBlogs.js",
+    "/apis/like-blog" : "/apis/likeBlog.js",
+    "/apis/delete-blog" : "/apis/deleteBlog.js",
+    "/apis/insert-blog" : "/apis/insertBlog.js"
+}
